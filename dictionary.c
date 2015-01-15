@@ -148,7 +148,7 @@ int dictionary_read_from_file(const char * filename)
 
     int count = 0;
 
-    // assure that at least two items are being parsed (word & desc)
+    // ensure that at least two items are being parsed (word & desc)
     while (fscanf(file, "%s %[^\n]", word, desc) > 1)
     {
         if (!trie_insert(&tree.root, word, desc))
