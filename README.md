@@ -49,4 +49,6 @@ Using this method for traversal allows us to operate in an `O(m)` timeframe wher
 
 An example of the tries hierarchy is shown below:
 
-![An example trie](https://github.com/MikeBull94/c-dictionary-trie/raw/master/diagram.png)
+![An example trie][example]
+
+[example]: /diagram.png
