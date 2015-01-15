@@ -1,0 +1,12 @@
+# Hidden files
+.*
+
+# Temporary files
+*~
+
+# Mac
+.DS_Store
+
+# Git
+!.git*
+!.mailmap
